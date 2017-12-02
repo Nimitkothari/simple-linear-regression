@@ -1,0 +1,5 @@
+applications:
+  - name: simpleLinearRegressionEmailSpam
+    buildpack: python_buildpack 
+    memory: 256M
+    stack: cflinuxfs2
